@@ -1,3 +1,12 @@
+// pg. 268 - testing for undefined
+var x;
+if (x == undefined) {
+	console.log("x is: " + x);
+}
+
+/********************************************************************************************/
+
+/*
 var phoneNumber = "123-4567";
 console.log("Larry's code determines the phone number validity is: " + validateLarry(phoneNumber));
 console.log("Brad's code determines the phone number validity is: " + validateBrad(phoneNumber));
@@ -38,3 +47,4 @@ function validateBrad(phoneNumber) {
 	}
 	return true;
 }
+*/
