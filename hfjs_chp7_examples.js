@@ -4,6 +4,15 @@ if (x == undefined) {
 	console.log("x is: " + x);
 }
 
+// testing an non-existing object property
+var customer = {
+	name: "Jenny"
+};
+if (customer.phoneNumber == undefined) {
+	console.log("customer.phoneNumber is: " + customer.phoneNumber);
+}
+
+
 /********************************************************************************************/
 
 /*
