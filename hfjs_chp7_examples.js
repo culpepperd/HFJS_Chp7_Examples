@@ -26,6 +26,7 @@ var test6;
 var test7 = { "abcdef": 123 };
 var test8 = ["abcdef", 123];
 function test9() { return "abcdef" };
+var test10 = null;
 
 console.log("\"abcdef\" is of type: " + typeof test1);
 console.log("123 is of type: " + typeof test2);
@@ -36,7 +37,7 @@ console.log("   is of type: " + typeof test6);
 console.log("{ \"abcdef\": 123 } is of type: " + typeof test7);
 console.log("[\"abcdef\", 123] is of type: " + typeof test8);
 console.log("function test9() is of type: " + typeof test9);
-
+console.log("null is of type: " + typeof test10);
 
 /********************************************************************************************/
 
