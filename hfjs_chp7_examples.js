@@ -27,15 +27,15 @@ var test7 = { "abcdef": 123 };
 var test8 = ["abcdef", 123];
 function test9() { return "abcdef" };
 
-console.log(typeof test1);
-console.log(typeof test2);
-console.log(typeof test3);
-console.log(typeof test4);
-console.log(typeof test5);
-console.log(typeof test6);
-console.log(typeof test7);
-console.log(typeof test8);
-console.log(typeof test9);
+console.log("\"abcdef\" is of type: " + typeof test1);
+console.log("123 is of type: " + typeof test2);
+console.log("true is of type: " + typeof test3);
+console.log("{} is of type: " + typeof test4);
+console.log("[] is of type: " + typeof test5);
+console.log("   is of type: " + typeof test6);
+console.log("{ \"abcdef\": 123 } is of type: " + typeof test7);
+console.log("[\"abcdef\", 123] is of type: " + typeof test8);
+console.log("function test9() is of type: " + typeof test9);
 
 
 /********************************************************************************************/
