@@ -1,5 +1,5 @@
 function runPage() {
-	/*
+	
 	// pg. 268 - testing for undefined
 	var x;
 	if (x == undefined) {
@@ -29,6 +29,7 @@ function runPage() {
 	var test8 = ["abcdef", 123];
 	function test9() { return "abcdef" };
 	var test10 = null;
+	var test11 = 0 / 0;
 	
 	console.log("\"abcdef\" is of type: " + typeof test1);
 	console.log("123 is of type: " + typeof test2);
@@ -40,7 +41,8 @@ function runPage() {
 	console.log("[\"abcdef\", 123] is of type: " + typeof test8);
 	console.log("function test9() is of type: " + typeof test9);
 	console.log("null is of type: " + typeof test10);
-	*/
+	console.log("0/0 is of type: " + typeof test11);
+	
 
 	/********************************************************************************************/
 
@@ -58,6 +60,7 @@ function runPage() {
 
 	/********************************************************************************************/
 
+	/*
 	// pg. 272 - NaN - Not a Number
 	var a = 0 / 0;
 	console.log("0/0 evaluates to: " + a);
@@ -76,6 +79,7 @@ function runPage() {
 	if (isNaN(c)) {
 		console.log("Used isNaN and it evaluates to: " + isNaN(c));
 	}
+	*/
 
 	/********************************************************************************************/
 
