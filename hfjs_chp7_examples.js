@@ -44,6 +44,7 @@ function runPage() {
 
 	/********************************************************************************************/
 
+	/*
 	// pg. 271 - using null
 	var header = document.getElementById("header");
 	if (header == null) {
@@ -53,6 +54,19 @@ function runPage() {
 	}
 
 	console.log("The header is of type: " + typeof header);
+	*/
+
+	/********************************************************************************************/
+
+	// pg. 272 - NaN - Not a Number
+	var a = 0 / 0;
+	console.log("0/0 evaluates to: " + a);
+
+	var b = "food" * 1000;
+	console.log("\"food\" * 1000 evaluates to: " + b);
+
+	var c = Math.sqrt(-9);
+	console.log("Math.sqrt(-9) evaluates to: " + c);
 
 	/********************************************************************************************/
 
