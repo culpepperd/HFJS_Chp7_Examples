@@ -61,12 +61,21 @@ function runPage() {
 	// pg. 272 - NaN - Not a Number
 	var a = 0 / 0;
 	console.log("0/0 evaluates to: " + a);
+	if (isNaN(a)) {
+		console.log("Used isNaN and it evaluates to: " + isNaN(a));
+	}
 
 	var b = "food" * 1000;
 	console.log("\"food\" * 1000 evaluates to: " + b);
+	if (isNaN(b)) {
+		console.log("Used isNaN and it evaluates to: " + isNaN(b));
+	}
 
 	var c = Math.sqrt(-9);
 	console.log("Math.sqrt(-9) evaluates to: " + c);
+	if (isNaN(c)) {
+		console.log("Used isNaN and it evaluates to: " + isNaN(c));
+	}
 
 	/********************************************************************************************/
 
