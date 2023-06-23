@@ -90,6 +90,14 @@ function runPage() {
 		console.log("No way a number equals a string.");
 	}
 
+	// pg. 277 - examples of == Equality operator and JS conversion
+	console.log("CASE #1: Comparing a number and a string: 99 == \"vanilla\" results in: " + (99 == "vanilla"));
+	console.log("CASE #2.0: Comparing a boolean with any other type: 1 == true results in: " + (1 == true));
+	console.log("CASE #2.1: Comparing a boolean with any other type: \"1\" == true results in: " + ("1" == true));
+	console.log("CASE #3: Comparing null and undefined: undefined == null results in: " + (undefined == null));
+	
+
+
 	/********************************************************************************************/
 
 	/*
