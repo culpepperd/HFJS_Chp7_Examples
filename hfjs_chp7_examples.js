@@ -1,5 +1,5 @@
 function runPage() {
-	
+/*	
 	// pg. 268 - testing for undefined
 	var x;
 	if (x == undefined) {
@@ -42,7 +42,7 @@ function runPage() {
 	console.log("function test9() is of type: " + typeof test9);
 	console.log("null is of type: " + typeof test10);
 	console.log("0/0 is of type: " + typeof test11);
-	
+*/	
 
 	/********************************************************************************************/
 
@@ -80,6 +80,15 @@ function runPage() {
 		console.log("Used isNaN and it evaluates to: " + isNaN(c));
 	}
 	*/
+
+	/********************************************************************************************/
+
+	// pg. 274 - example
+	if (99 == "99") {
+		console.log("A number equals a string!");
+	} else {
+		console.log("No way a number equals a string.");
+	}
 
 	/********************************************************************************************/
 
